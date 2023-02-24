@@ -1,0 +1,142 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.calculator {
+  width: 250px;
+  margin: auto;
+  border-radius: 5px;
+  padding: 10px;
+  animation: gradient 10s ease infinite;
+  float:left;
+  display;block-inline;
+}
+
+@keyframes gradient {
+  0% {
+    background: #5f2c82;
+    background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);
+    background: linear-gradient(to right, #49a09d, #5f2c82);
+  }
+  25% {
+    background: #ff416c;
+    background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+  }
+  50% {
+    background: #00b4db;
+    background: -webkit-linear-gradient(to right, #0083b0, #00b4db);
+    background: linear-gradient(to right, #0083b0, #00b4db);
+  }
+  75% {
+    background: #ee0979;
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+  }
+  100% {
+    background: #009fff;
+    background: -webkit-linear-gradient(to right, #ec2f4b, #009fff);
+    background: linear-gradient(to right, #ec2f4b, #009fff);
+  }
+}
+
+.display {
+  margin-bottom: 10px;
+}
+
+
+.input {
+  width: 90%;
+  height: 30px;
+  font-size: 20px;
+  text-align: right;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  padding: 5px;
+}
+
+.buttons button {
+  width:50px;
+  height: 50px;
+  font-size: 24px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background: #ccc;
+}
+
+.buttons .operator {
+  background: #ff8c00;
+  color: #fff;
+}
+
+.buttons #clear {
+  background: #d9534f;
+  color: #fff;
+}
+
+.buttons #equal {
+  background: #5cb85c;
+  color: #fff;
+}
+table {
+	border-collapse: collapse;
+	margin: auto;
+	 background-color: #f1f1f1;
+	
+}
+
+td {
+	width: 100px;
+	height: 100px;
+	font-size: 50px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+td:hover {
+background: linear-gradient(to bottom right, #ff7676, #f54ea2);
+}
+
+#result {
+	text-align: center;
+	font-size: 24px;
+	
+}
+
+
+.hizala{
+	float:right;
+	text-indent:25%;
+}
+#yenile{
+	display: block;
+	margin: auto;
+	font-size: 20px;
+	padding: 10px;
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+#yenile:hover{
+	cursor:pointer;
+	background-color: black;
+	color:red;
+}
+.düzelt{
+	display:inline-block;
+	height:430px;
+}
+.düzelt img{
+	height:100%;
+	width:183px;
+}
